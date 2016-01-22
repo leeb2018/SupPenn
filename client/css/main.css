@@ -1,0 +1,77 @@
+
+html {
+  font-family: Arial, sans-serif;
+  font-size: 100%;
+}
+
+body {
+  width: 80%;
+  padding: 50px 100px;
+}
+h1 {
+  font-size: 50px;
+  font-weight: lighter;
+  margin-top: 10px;
+  color: #01256e;
+  text-decoration: underline;
+}
+#container {
+  display: list-item;
+  width: 100%;
+  border: 1px solid #01256e;
+  border-radius: 3px;
+}
+.sup_penn {
+  padding-left: 5%;
+  width: 30%;
+  float: left;
+}
+.word_count{
+  padding-right: 5%;
+  text-align: right;
+  width: 30%;
+  float : right;
+}
+
+#message-form {
+  margin-top: 1.5rem;
+}
+
+#posts {
+  width: 100%;
+}
+
+#post {
+  width: 100%;
+  border: 1px solid #6d0e0e;
+}
+
+textarea {
+  width: 88%;
+  margin-left: 6%;
+  margin-right: 6%;
+  font-size: 1rem;
+  border: 1px solid #6d0e0e;
+  border-radius: 3px;
+  min-height: 100px;
+  margin-bottom: 1rem;
+}
+
+button {
+  display: inline-block;
+  border-radius: 3px;
+  border: none;
+  font-size: 16px;
+  padding: 6px 6px;
+  color: white;
+  margin-left: 80%;
+  margin-bottom: 20px;
+  text-align: center;
+  background: #6d0e0e;
+  border-bottom: 1px solid #999;
+}
+
+button:hover {
+  opacity: 0.75;
+  cursor: pointer;
+}
